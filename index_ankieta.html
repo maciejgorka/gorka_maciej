@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Ankieta</title>
+<link rel="stylesheet" type="text/css" href="style_1.css">
+</head>
+
+<body>
+
+<form class="tresc" action="mailto:maciej.gorka06@gmail.com" method="post">
+	
+	<label for="fname">Imię:</label><br>
+  	<input type="text" id="fname" name="fname"><br>
+  	<label for="lname">Nazwisko:</label><br>
+  	<input type="text" id="lname" name="lname">
+	<br><hr><br>
+	
+<span class="naglowek2">Który z siedmiu cudów świata chciałbyś zobaczyć najbardziej w rzeczywistości?</span><br><br>
+
+  	<input type="radio" id="mur" name="cud" value="Wielki Mur Chiński">
+  	<label for="mur">Wielki Mur Chiński</label><br>
+	
+  	<input type="radio" id="petra" name="cud" value="Petra">
+  	<label for="petra">Petra</label><br>
+	
+  	<input type="radio" id="statua" name="cud" value="Statua Chrystusa Zbawiciela w Rio de Janeiro">
+  	<label for="statua">Statua Chrystusa Zbawiciela w Rio de Janeiro</label><br>
+	
+	<input type="radio" id="machu" name="cud" value="Machu Picchu">
+  	<label for="machu">Machu Picchu</label><br>
+	
+	<input type="radio" id="chichen" name="cud" value="Chichén Itzá">
+ 	<label for="chichen">Chichén Itzá</label><br>
+	
+	<input type="radio" id="koloseum" name="cud" value="Koloseum">
+  	<label for="koloseum">Koloseum</label><br>
+	
+	<input type="radio" id="mahal" name="cud" value="Tadź Mahal">
+  	<label for="tadź">Tadź Mahal</label><br>
+
+<br><hr>
+	<span class="naglowek2">Co sądzisz o stronie, którą właśnie odwiedziłeś?</span><br><br>
+	<textarea>Napisz opinie</textarea>
+	
+<br><hr><br>
+	
+	<input class="przycisk" type="submit" value="Wyślij" onclick="alert('Wyślij')">
+  	<input class="przycisk" type="reset" value="Wyczyść" onclick="alert('Wyczyść')">
+	
+</form>
+
+</body>
+</html>

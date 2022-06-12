@@ -1,0 +1,168 @@
+#naglowek{
+    font-size: 45px;
+}
+.tresc{
+    font-size: 20px;
+}
+table{
+	border: 2px solid black;
+	width: 25%;
+}
+td{
+	border: 1px solid black;
+}
+.naglowek2{
+	font-size: 24px;
+}
+
+
+textarea{
+	height: 10vh;
+	width:  20%;
+}
+body{
+	background-color: #e0e0e0;
+}
+.zdj_glowna{
+	width: 70%;
+	position: absolute;
+	top: 10vh;
+	left: 15vw;
+	
+
+}
+.przycisk{
+	width: 100px;
+	height: 30px;
+}
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 75%;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: black;
+  font-size: 1.4vw;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: black;
+  font-size: 1.2vw;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media screen and (max-width: 600px){
+	.tresc{
+		font-size: 22px;
+	}
+	.zdj_glowna{
+		width: 85%;
+		position: absolute;
+		top:15vh;
+		left: 8vw;
+	}
+	.slideshow-container{
+		max-width: 85%;
+		position: absolute;
+		top: 15vh;
+		left: 8vw;
+	}
+	textarea{
+		height: 15vh;
+		width: 40vw;
+	}
+	.naglowek2{
+		font-size: 25px;
+	}
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+	.tresc{
+		font-size: 21px;
+	}
+	.naglowek2{
+		font-size: 23px;
+	}
+	table{
+		width: 35%;
+	}
+	.slideshow-container{
+		max-width: 85%;
+		position: absolute;
+		top: 15vh;
+		left: 8vw;
+	}
+}
